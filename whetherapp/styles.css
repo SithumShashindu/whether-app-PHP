@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('back.jpg'); /* Ensure the background image is in the same directory or provide the correct path */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    width: 80%;
+    max-width: 600px; /* Optional: maximum width to make it more responsive */
+    margin: auto;
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for better visual */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+    padding: 8px;
+    width: 100%; /* Full width for better responsiveness */
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width for better responsiveness */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    margin-top: 10px; /* Spacing between input and button */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h1, h2 {
+    color: #FFD700; /* Change heading colors to gold */
+    text-align: center; /* Center align the headings */
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center; /* Center align the text */
+}
+
+#loading img {
+    display: block;
+    margin: 0 auto;
+    width: 50px; /* Adjust the size of the loading icon as needed */
+    height: 50px;
+}
